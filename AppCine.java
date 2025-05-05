@@ -79,7 +79,7 @@ public class AppCine {
 
 		 do { // Mediante un bucle se muestra el menu 
 		     mostrarMenu();
-		     while (!sc.hasNextInt()) {
+		     while (!sc.hasNextInt()) {// Controla la entrda para que acepte numeros enteros
 		         System.out.print("Por favor, introduzca una opción válida: ");
 		         sc.next();
 		     }
